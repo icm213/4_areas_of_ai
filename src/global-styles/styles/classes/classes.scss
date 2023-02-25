@@ -1,4 +1,4 @@
-@import "../mixins/flex.scss";
+@import "../../mixins/flex.scss";
 
 .main {
   @include flex(column, center, center, 1rem);
@@ -24,7 +24,7 @@
   padding: 1rem 2rem;
   text-align: center;
   background-color: var(--color-secondary-gray);
-  border-radius: 1.6rem;
+  border-radius: var(--border-radius-mobile);
   p {
     color: var(--color-primary-lightgray);
     opacity: 0.6;

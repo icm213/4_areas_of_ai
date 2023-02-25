@@ -1,0 +1,6 @@
+@mixin icons($padding, $brrr) {
+  padding: $padding;
+  border-radius: $brrr;
+  //TODO: implenetation of alpha value in bgc
+  // background-color: $bgcolor 50;
+}

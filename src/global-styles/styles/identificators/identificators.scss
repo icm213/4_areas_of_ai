@@ -1,0 +1,23 @@
+@import "/src/global-styles/styles/root.scss";
+@import "/src/global-styles/mixins/icons.scss";
+
+#computer-vision {
+  padding: 2rem;
+  background-color: #6c7cff20;
+  @include icons(1.6rem, var(--border-radius-mobile));
+}
+#machine-learning {
+  padding: 2rem;
+  background-color: #ca59ff20;
+  @include icons(1.6rem, var(--border-radius-mobile));
+}
+#natural-language {
+  padding: 2rem;
+  background-color: #2affff20;
+  @include icons(1.6rem, var(--border-radius-mobile));
+}
+#robotics {
+  padding: 2rem;
+  background-color: #fff62920;
+  @include icons(1.6rem, var(--border-radius-mobile));
+}
