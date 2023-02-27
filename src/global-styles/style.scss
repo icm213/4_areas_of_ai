@@ -13,17 +13,19 @@ body {
   color: var(--color-secondary-white);
 }
 
-h1 {
-  margin: 0;
-  font-weight: 400;
-}
-
+h1,
 h2 {
   margin: 0;
   font-weight: 400;
+}
+h2 {
+  padding-bottom: 0.1rem;
 }
 
 p {
   color: var(--color-on-surface);
   font-weight: 400;
+  line-height: 1.4;
 }
+
+@import "styles/media.scss";

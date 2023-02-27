@@ -1,5 +1,11 @@
 @import "/src/global-styles/styles/root.scss";
 @import "/src/global-styles/mixins/icons.scss";
+@import "/src/global-styles/mixins/flex.scss";
+
+#home-page {
+  min-height: 100vh;
+  @include flex(column, center, center, 1rem);
+}
 
 #computer-vision {
   padding: 2rem;
