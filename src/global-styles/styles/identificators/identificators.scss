@@ -9,21 +9,17 @@
 
 #computer-vision {
   padding: 2rem;
-  background-color: #6c7cff20;
-  @include icons(1.6rem, var(--border-radius-mobile));
+  @include icons(1.6rem, var(--border-radius-mobile), #6c7cff);
 }
 #machine-learning {
   padding: 2rem;
-  background-color: #ca59ff20;
-  @include icons(1.6rem, var(--border-radius-mobile));
+  @include icons(1.6rem, var(--border-radius-mobile), #ca59ff);
 }
 #natural-language {
   padding: 2rem;
-  background-color: #2affff20;
-  @include icons(1.6rem, var(--border-radius-mobile));
+  @include icons(1.6rem, var(--border-radius-mobile), #2affff);
 }
 #robotics {
   padding: 2rem;
-  background-color: #fff62920;
-  @include icons(1.6rem, var(--border-radius-mobile));
+  @include icons(1.6rem, var(--border-radius-mobile), #fff629);
 }
