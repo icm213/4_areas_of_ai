@@ -8,18 +8,30 @@
 }
 
 #computer-vision {
-  padding: 2rem;
-  @include icons(1.6rem, var(--border-radius-mobile), #6c7cff);
+  @include icons(
+    1.6rem 1.4rem 1.4rem 1.4rem,
+    var(--border-radius-mobile),
+    #6c7cff
+  );
 }
 #machine-learning {
-  padding: 2rem;
-  @include icons(1.6rem, var(--border-radius-mobile), #ca59ff);
+  @include icons(
+    1.6rem 1.4rem 1.4rem 1.4rem,
+    var(--border-radius-mobile),
+    #ca59ff
+  );
 }
 #natural-language {
-  padding: 2rem;
-  @include icons(1.6rem, var(--border-radius-mobile), #2affff);
+  @include icons(
+    1.6rem 1.4rem 1.4rem 1.4rem,
+    var(--border-radius-mobile),
+    #2affff
+  );
 }
 #robotics {
-  padding: 2rem;
-  @include icons(1.6rem, var(--border-radius-mobile), #fff629);
+  @include icons(
+    1.6rem 1.4rem 1.4rem 1.4rem,
+    var(--border-radius-mobile),
+    #fff629
+  );
 }

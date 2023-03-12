@@ -1,32 +1,28 @@
 @import "../../mixins/flex.scss";
 
 .main {
-  @include flex(column, center, center, 2rem);
-  padding: 1rem;
-  margin: 2rem auto;
-  max-width: 26rem;
-}
-
-.section {
-  @include flex(column, center, center, 1rem);
+  @include flex(column, center, center, 2.4rem);
+  padding: 0 1.6rem;
+  margin: 4.8rem auto;
 }
 
 .section--header {
-  @extend .section;
+  @include flex(column, center, center, 2.4rem);
 }
 
 .section--tiles {
-  @extend .section;
+  @include flex(column, center, center, 1.6rem);
 }
 
 .section--tile {
-  @include flex(column, center, center, 1rem);
-  padding: 1rem 2rem;
+  @include flex(column, center, center, 1.6rem);
+  padding: 1.6rem 3.2rem;
   text-align: center;
   background-color: var(--color-secondary-gray);
   border-radius: var(--border-radius-mobile);
   p {
-    color: var(--color-primary-lightgray);
+    font-size: 1.4rem;
+    color: var(--color-secondary-white);
     opacity: 0.6;
   }
 }
