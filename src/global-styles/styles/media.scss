@@ -1,26 +1,21 @@
 @import "../mixins/grid.scss";
 
-@media screen and (min-width: 37em) {
+@media screen and (min-width: 33em) {
   h1 {
     font-size: var(--h1-font-size_tablet);
-    letter-spacing: -0.2%;
   }
-  // h2 {
-  //   font-size: 2rem;
-  // }
 
   .main {
-    max-width: 49rem;
-    margin: 3rem auto;
+    max-width: 49.6rem;
+    margin: auto;
 
     .section--tiles {
-      @include grid(1fr 1fr, 1rem, 1rem, center);
+      @include grid(1fr 1fr, 1.6rem, 1.6rem, center);
       align-items: stretch;
     }
     .section--tile {
       justify-content: flex-start;
       padding: 3rem 2rem;
-      gap: 1.6rem;
     }
   }
 }
@@ -38,6 +33,28 @@
       max-width: 55.6rem;
       row-gap: 2.8rem;
       column-gap: 2.2rem;
+    }
+    .section--tile {
+      width: 26.8rem;
+      height: 24rem;
+      padding: 3.2rem 1.6rem;
+
+      #computer-vision {
+        @include icons(var(--border-radius-mobile), #6c7cff, 6.4rem, 6.4rem);
+      }
+      #machine-learning {
+        @include icons(var(--border-radius-mobile), #ca59ff, 6.4rem, 6.4rem);
+      }
+      #natural-language {
+        @include icons(var(--border-radius-mobile), #2affff, 6.4rem, 6.4rem);
+      }
+      #robotics {
+        @include icons(var(--border-radius-mobile), #fff629, 6.4rem, 6.4rem);
+      }
+      svg {
+        width: 3.2rem;
+        height: 3.2rem;
+      }
     }
   }
 }

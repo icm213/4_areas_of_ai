@@ -8,30 +8,14 @@
 }
 
 #computer-vision {
-  @include icons(
-    1.6rem 1.4rem 1.4rem 1.4rem,
-    var(--border-radius-mobile),
-    #6c7cff
-  );
+  @include icons(var(--border-radius-mobile), #6c7cff, 5.8rem, 5.8rem);
 }
 #machine-learning {
-  @include icons(
-    1.6rem 1.4rem 1.4rem 1.4rem,
-    var(--border-radius-mobile),
-    #ca59ff
-  );
+  @include icons(var(--border-radius-mobile), #ca59ff, 5.8rem, 5.8rem);
 }
 #natural-language {
-  @include icons(
-    1.6rem 1.4rem 1.4rem 1.4rem,
-    var(--border-radius-mobile),
-    #2affff
-  );
+  @include icons(var(--border-radius-mobile), #2affff, 5.8rem, 5.8rem);
 }
 #robotics {
-  @include icons(
-    1.6rem 1.4rem 1.4rem 1.4rem,
-    var(--border-radius-mobile),
-    #fff629
-  );
+  @include icons(var(--border-radius-mobile), #fff629, 5.8rem, 5.8rem);
 }

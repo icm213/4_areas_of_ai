@@ -1,5 +1,7 @@
-@mixin icons($padding, $brrr, $bgcolor) {
-  padding: $padding;
+@mixin icons($brrr, $bgcolor, $width, $height) {
   border-radius: $brrr;
   background-color: rgba($bgcolor, 0.2);
+  padding-top: 1.6rem;
+  width: $width;
+  height: $height;
 }
